@@ -36,7 +36,7 @@
 }
 
 .context-menu-item {
-    padding: 2px 2px 2px 24px;
+    padding: 2px 2px 2px 2px;
     background-color: #EEE;
     position: relative;
     -webkit-user-select: none;
@@ -88,7 +88,7 @@
     http://css-tricks.com/13224-pseudo-spriting/ to get an idea of how to implement 
     .context-menu-item.icon:before {}
  */
-.context-menu-item.icon { min-height: 18px; background-repeat: no-repeat; background-position: 4px 2px; list-style-type: none;}
+.context-menu-item.icon {padding: 2px 2px 2px 24px; min-height: 18px; background-repeat: no-repeat; background-position: 4px 2px; list-style-type: none;}
 .context-menu-item.icon-edit { background-image: url(images/page_white_edit.png); }
 .context-menu-item.icon-cut { background-image: url(images/cut.png); }
 .context-menu-item.icon-copy { background-image: url(images/page_white_copy.png); }
