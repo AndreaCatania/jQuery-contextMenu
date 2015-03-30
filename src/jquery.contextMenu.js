@@ -1084,6 +1084,11 @@ var // currently active contextMenu trigger
                     if (item.icon) {
                         $t.addClass("icon icon-" + item.icon);
                     }
+                    
+                    // add font awesome icon
+                    if (item.fa_icon) {
+                        $t.prepend("<i class='fa fa-"+item.fa_icon+"'></i> ");
+                    }
                 }
                 
                 // cache contained elements
